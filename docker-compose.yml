@@ -6,7 +6,6 @@ services:
     build: elasticsearch/
     volumes:
       - ./elasticsearch/config/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml
-      - ./elasticsearch/data:/usr/share/elasticsearch/data
     network_mode: host
     restart: always
     environment:
@@ -23,11 +22,6 @@ services:
     restart: always
     depends_on:
       - elasticsearch
-    logging:
-      driver: syslog
-      options:
-        syslog-address: "tcp://syslog_host:514"
-        tag: "logstash"
 
   kibana:
     build: kibana/
