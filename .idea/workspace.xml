@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94094624-edda-488b-92a4-533175a8333e" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/kibana/Screen Shot 2018-03-11 at 13.12.07.png" />
-      <change beforePath="$PROJECT_DIR$/.idea/docker-elk-syslog.iml" afterPath="$PROJECT_DIR$/.idea/docker-elk-syslog.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/create_event.rb" afterPath="$PROJECT_DIR$/create_event.rb" />
-    </list>
+    <list default="true" id="94094624-edda-488b-92a4-533175a8333e" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -191,12 +186,12 @@
       <option name="presentableId" value="Default" />
       <updated>1520721806880</updated>
       <workItem from="1520721808040" duration="3250000" />
-      <workItem from="1520771405672" duration="2696000" />
+      <workItem from="1520771405672" duration="2851000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5946000" />
+    <option name="totallyTimeSpent" value="6101000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1234" extended-state="0" />

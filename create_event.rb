@@ -36,8 +36,8 @@ def trace(message:, category:, service:)
       completed: completed.to_f,
       duration: duration,
       request_duration: duration / 100 * 20,
-      queue_duration: duration / 100 * 10,
-      process_duration: duration / 100 * 50,
+      queue_duration: duration / 100 * 10, # use this to represent time in message queue when tracing events
+      process_duration: duration / 100 * 50, # use this to represent time taken to process message when tracing events
       response_duration: duration / 100 * 20
     }
     require 'pry'
